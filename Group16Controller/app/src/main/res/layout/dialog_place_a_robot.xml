@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gainsboro"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/robotCoordX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="10dp"
+        android:hint="Column (X)"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:nextFocusRight="@+id/robotCoordY"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/robotCoordY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="10dp"
+        android:hint="Row (Y)"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
